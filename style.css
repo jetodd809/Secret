@@ -1,0 +1,156 @@
+@media only screen and (max-width: 1024px){
+body{
+  font-size: 16px;
+  font-family: Helvetica;
+  font-weight: bold;
+ }
+}
+@media only screen and (max-width: 470px){
+  h4{
+    padding-top: 1rem;
+    font-size: 0.77rem;
+  }
+  .headline h1{
+    font-size: 1rem;
+    padding-left: 2rem;
+  }
+  .headline{
+    padding: 10rem 0 0 0;
+  }
+  .banner{
+    height: 15rem;
+  }
+  .product img{
+    width: 90%;
+  }
+  .title{
+    width: 90%;
+    padding: 0.5rem 0px;
+  }
+}
+
+body{
+  font-size: 18px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.logo{
+  background-color: black;
+  color: white;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.logo .container{
+  display: flex;
+  align-items: center;
+  padding: 12px 0 12px 0.5em;
+}
+
+.container img{
+  height: 1.5em;
+  padding-right: 15px;
+}
+
+.banner{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25em;
+}
+
+.headline{
+  color: white;
+  background-color: black;
+  width: 20em;
+  padding: 2em 3em;
+  position: relative;
+  top: 9em;
+}
+
+.headline h1{
+  font-size: 2em;
+  line-height: 1.25em;
+  margin: 0.25em 0px;
+}
+
+nav{
+  background-color: firebrick;
+  color: white;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.75rem 0px;
+}
+
+.products{
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+}
+
+.product-image img{
+  display: flex;
+  height: 9rem;
+  padding: 2rem 2rem;
+  border: 4px solid black;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.description{
+  display: block;
+  color: white;
+  background-color: black;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.business-info{
+  display: flex;
+  margin: 3rem 0 0 0;
+  justify-content: space-between;
+}
+
+.info{
+  width: 35%;
+}
+
+.title{
+  display: block;
+  color: white;
+  background-color: black;
+  padding: 1em 2em;
+}
+
+footer{
+  color: white;
+  background-color: black;
+}
+
+.copyright{
+  text-align: left;
+  padding: 5rem 0px;
+  margin: 4rem 0 0 0;
+}
+
+div{
+  display: block;
+}
+
+h4 h1{
+  font-weight: bold;
+}
+
+h4{
+  display: block;
+}
